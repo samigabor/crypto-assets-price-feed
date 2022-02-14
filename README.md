@@ -5,7 +5,7 @@ Client-server web app that displays a price feed for crypto assets. The UI inclu
 - filtering section, by asset name or symbol
 - input section for adding a new asset
 - assets list, with sortable functionality
-- pooling mechanism, which updates the price feed every seconds
+- pooling mechanism, which updates the price feed every second
 
 ## Folder structure
 
@@ -19,8 +19,10 @@ README.md
 
 ### Get the project locally
 
-- `git clone https://gitlab.com/samigabor/crypto-assets-price-feed.git`
-- `cd crypto-assets-price-feed`
+```
+git clone https://gitlab.com/samigabor/crypto-assets-price-feed.git
+cd crypto-assets-price-feed
+```
 
 ### Run front-end (client)
 
