@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "id": 0,
+      "name": "Usdt",
+      "symbol": "USDT",
+      "price": 1,
+      "volume": 1000000000
+    },
+    {
+      "id": 1,
+      "name": "Usdc",
+      "symbol": "USDC",
+      "price": 1,
+      "volume": 1000000001
+    },
+    {
+      "name": "Dai",
+      "symbol": "DAI",
+      "price": 1,
+      "volume": 1000000002,
+      "id": 2
+    }
+  ]
+}
