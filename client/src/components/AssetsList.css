@@ -1,0 +1,17 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  width: 75%;
+}
+
+.header-row {
+  height: 30px;
+}
+
+.body-row {
+  height: 30px;
+}

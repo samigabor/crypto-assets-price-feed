@@ -1,0 +1,34 @@
+.asset-form {
+  display: flex;
+  justify-content: center;
+}
+
+.asset-container {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  width: 70%;
+}
+
+.input-name,
+.input-symbol {
+  width: 50%;
+}
+
+.input-name {
+  margin-right: 6px;
+}
+
+.input-symbol {
+  margin-left: 6px;
+}
+
+.add-button {
+  width: 30%;
+  margin-left: 12px;
+}

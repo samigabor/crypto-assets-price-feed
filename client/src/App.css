@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.down-arrow {
+  width: 10px;
+  margin: 0 6px;
+}
+
+.no-items {
+  text-align: center;
+  color: gray;
+}

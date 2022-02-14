@@ -1,0 +1,20 @@
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.filter-name {
+  width: 70%;
+  margin-right: 12px;
+}
+
+.filter-button {
+  width: 30%;
+}
