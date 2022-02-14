@@ -17,4 +17,5 @@
 
 .filter-button {
   width: 30%;
+  cursor: pointer;
 }

@@ -31,4 +31,5 @@
 .add-button {
   width: 30%;
   margin-left: 12px;
+  cursor: pointer;
 }

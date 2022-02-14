@@ -19,25 +19,25 @@ const AssetsList: FC<AssetsListProps> = ({
       <table className="table-container">
         <thead>
           <tr className="header-row">
-            <th onClick={() => onSortAssets("name")}>
+            <th className="header-item" onClick={() => onSortAssets("name")}>
               Name
               {sortColumn === "name" && (
                 <img alt="down arrow" src={downArrow} className="down-arrow" />
               )}
             </th>
-            <th onClick={() => onSortAssets("symbol")}>
+            <th className="header-item" onClick={() => onSortAssets("symbol")}>
               Symbol
               {sortColumn === "symbol" && (
                 <img alt="down arrow" src={downArrow} className="down-arrow" />
               )}
             </th>
-            <th onClick={() => onSortAssets("price")}>
+            <th className="header-item" onClick={() => onSortAssets("price")}>
               Price
               {sortColumn === "price" && (
                 <img alt="down arrow" src={downArrow} className="down-arrow" />
               )}
             </th>
-            <th onClick={() => onSortAssets("volume")}>
+            <th className="header-item" onClick={() => onSortAssets("volume")}>
               Volume
               {sortColumn === "volume" && (
                 <img alt="down arrow" src={downArrow} className="down-arrow" />
@@ -50,10 +50,10 @@ const AssetsList: FC<AssetsListProps> = ({
           assets.map((asset: Asset) => (
             <tbody key={asset.id}>
               <tr className="body-row">
-                <td>{asset.name}</td>
-                <td>{asset.symbol}</td>
-                <td>{asset.price}</td>
-                <td>{asset.volume}</td>
+                <td className="item-column">{asset.name}</td>
+                <td className="item-column">{asset.symbol}</td>
+                <td className="item-column">{asset.price}</td>
+                <td className="item-column">{asset.volume}</td>
               </tr>
             </tbody>
           ))
